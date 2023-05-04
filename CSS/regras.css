@@ -24,12 +24,21 @@
   margin-bottom: 10px;
 }
 
-.regras a {
-  font-size: 1.5rem;
-  color: blue;
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  background: #080d38;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #f5e8da;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .regras h2 {
     font-size: 1.5rem;
     text-align: center;

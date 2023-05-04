@@ -47,12 +47,14 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
   .artes h2 {
     font-size: 1.5rem;
     text-align: center;
   }
-
+  .artes h2::after {
+    content: none;
+  }
   .artes p {
     font-size: 1rem;
     line-height: 1.2;
