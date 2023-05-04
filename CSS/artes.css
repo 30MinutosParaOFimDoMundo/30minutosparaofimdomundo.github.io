@@ -55,6 +55,9 @@
   .artes h2::after {
     content: none;
   }
+  .artes ul {
+    grid-template-columns: 1fr;
+  }
   .artes p {
     font-size: 1rem;
     line-height: 1.2;
