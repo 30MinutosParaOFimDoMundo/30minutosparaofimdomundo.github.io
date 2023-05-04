@@ -1,0 +1,41 @@
+.projeto h2 {
+  font-size: 2rem;
+  color: #f5e8da;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  position: relative;
+}
+.projeto h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 70px;
+  background: url("../img/projeto2.svg") no-repeat center;
+  position: absolute;
+  top: -20px;
+  left: 180px;
+  z-index: -1;
+}
+.projeto p {
+  color: #f5e8da;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.projeto span {
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .projeto h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .projeto p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}

@@ -1,0 +1,60 @@
+.artes h2 {
+  font-size: 2rem;
+  color: #f5e8da;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  position: relative;
+}
+.artes h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 70px;
+  background: url("../img/desenho.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: 520px;
+  z-index: -1;
+}
+.artes p {
+  color: #f5e8da;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.artes span {
+  font-style: italic;
+}
+.artes ul {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+.artes li {
+  color: #f5e8da;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  align-content: center;
+}
+
+.nome p {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .artes h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .artes p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}

@@ -1,0 +1,52 @@
+.criadores h2 {
+  font-size: 2rem;
+  color: #f5e8da;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  position: relative;
+}
+.criadores h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 70px;
+  background: url("../img/equipe1.svg") no-repeat center;
+  position: absolute;
+  top: -20px;
+  left: 240px;
+  z-index: -1;
+}
+.criadores p {
+  color: #f5e8da;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.criadores span {
+  font-style: italic;
+}
+.criadores ul {
+  margin-top: 20px;
+  list-style: circle;
+}
+.criadores li {
+  color: #f5e8da;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .criadores h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .criadores p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}

@@ -1,0 +1,12 @@
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./projeto.css";
+@import "./criadores.css";
+@import "./regras.css";
+@import "./acessibilidade.css";
+@import "./footer.css";
+@import "./artes.css";
+
+/* para apagar depois */
+@import "./conteudo.css";
